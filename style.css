@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+#contenedor {
+    width: 100%;
+}
+
+#contenedor-buscador {
+    width: 45%;
+    height: auto;
+    margin: 4rem 0;
+    position: relative;
+}
+
+#contenedor-clima {
+    width: 600px;
+    height: 300px;
+    box-shadow: 1px 1px 10px black;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#icon-search {
+    position: absolute;
+    top: 8px;
+    left: 35rem;
+}
+
+#icon-search:hover {
+    cursor: pointer;
+}
+
+#pais-clima {
+    width: 100%;
+    height: 20%;
+    font-size: 3.8rem;
+}
+
+#contenedor-clima #ciudad-clima {
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#contenedor-contenedores {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+
+#contenedor-clima__derecho {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contenedor-clima__derecho img {
+    width: 150px;
+}
+
+#numero_clima {
+    font-size: 4.3rem;
+}
+
+#contenedor-clima__izquierdo {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#contenedor-humedad__clima {
+    width: 100%;
+    text-align: left;
+}
+
+#contenedor-velocidad__clima {
+    width: 100%;
+    text-align: left;
+}
+
+#contenedor-clima__inferior p {
+    margin-bottom: 0;
+    margin-left: 8rem;
+    font-size: 1.7rem;
+}
+
+#contenedor-clima__inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+#nombre-clima {
+    font-size: 1.7rem;
+}
+
+/*/////////////////////////////////////////////CLIMA EXTENDIDO//////////////////////////////////////////*/
+
+#contenedor-clima-extendido {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 35rem;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 1px 14px black;
+    margin: 2rem;
+}
+
+#dia-hoy {
+    display: flex;
+    width: 100%;
+    height: calc(100%/3);
+    box-shadow: 0 4px 14px -2px black;
+}
+
+#dia-mañana {
+    display: flex;
+    width: 100%;
+    height: calc(100%/3);
+    box-shadow: 0 4px 14px -2px black;
+}
+
+#dia-pasado-mañana {
+    display: flex;
+    width: 100%;
+    height: calc(100%/3);
+    box-shadow: 0 4px 14px -2px black;
+}
+
+#mini-box {
+    width: calc(100%/6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#mini-box span {
+    font-weight: 900;
+}
+
+#mini-box p {
+    margin: 0;
+}
+
+#contenedor-sensacion-termica {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    align-items: center;
+}
+
+#contenedor-sensacion-termica p {
+    margin: 0;
+}
